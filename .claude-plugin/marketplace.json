@@ -1,0 +1,14 @@
+{
+  "name": "parsa-plugins",
+  "description": "Parsa's personal Claude Code plugins — business copilot suite and friends",
+  "owner": {
+    "name": "Parsa"
+  },
+  "plugins": [
+    {
+      "name": "biz",
+      "source": "./biz",
+      "description": "Business copilot suite: market research, competitor analysis, customer discovery, PMF assessment, GTM strategy, unit economics — chained through a shared per-venture workspace"
+    }
+  ]
+}
