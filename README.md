@@ -9,16 +9,19 @@ A business copilot suite for Claude Code — market research, competitor analysi
 از داخل Claude Code (توصیه‌شده) / From inside Claude Code (recommended):
 
 ```
-/plugin marketplace add heyparsadev/claude-venture-plugin
+/plugin marketplace add https://github.com/heyparsadev/claude-venture-plugin.git
 /plugin install venture@parsa-plugins
 ```
 
 یا با CLI / Or via the CLI:
 
 ```bash
-claude plugin marketplace add heyparsadev/claude-venture-plugin
+claude plugin marketplace add https://github.com/heyparsadev/claude-venture-plugin.git
 claude plugin install venture@parsa-plugins
 ```
+
+> 💡 از URL کامل `https://...git` استفاده کن (نه شکل کوتاه `owner/repo`) تا clone از HTTPS انجام شه و به SSH key نیاز نباشه.
+> Use the full `https://...git` URL (not the `owner/repo` shorthand) so cloning uses HTTPS and needs no SSH key.
 
 بعد یک سشن جدید Claude Code باز کن (پلاگین‌ها اول سشن لود می‌شن).
 Then start a new Claude Code session (plugins load at session start).
