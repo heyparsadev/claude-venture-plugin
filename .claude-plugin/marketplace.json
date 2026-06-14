@@ -6,8 +6,8 @@
   },
   "plugins": [
     {
-      "name": "biz",
-      "source": "./biz",
+      "name": "venture",
+      "source": "./venture",
       "description": "Business copilot suite: market research, competitor analysis, customer discovery, PMF assessment, GTM strategy, unit economics — chained through a shared per-venture workspace"
     }
   ]

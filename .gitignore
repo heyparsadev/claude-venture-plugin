@@ -1,2 +1,6 @@
+# User venture workspaces (created by the plugin at runtime — not part of the plugin)
+ventures/
+
+# Local Claude Code state
+.claude/
 .DS_Store
-.claude/settings.local.json
